@@ -199,7 +199,7 @@ async function startXeonBotInc() {
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
                 text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
-                \n Give a Star ⭐ to our bot:\n https://github.com/mruniquehacker/KnightBot-MD\n ✅Make sure to join below channel`,
+                \n Give a Star ⭐ to our bot:\n https://github.com/LOL-TECH090/KnightBot-MD\n ✅Make sure to join below channel`,
                 contextInfo: {
                     forwardingScore: 999,
                     isForwarded: true,
@@ -212,12 +212,12 @@ async function startXeonBotInc() {
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'KNIGHT BOT'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'LOL-TECH BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MR UNIQUE HACKER`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrunqiuehacker`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: FINBOTZ`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: LOL-TECH`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MR UNIQUE HACKER`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: LOL-TECH OWNER`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
         }
         if (
